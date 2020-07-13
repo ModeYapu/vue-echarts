@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div id="allmap" style="width:1000px;height:600px;"></div>
+    <div id="allmap"></div>
   </div>
 </template>
 
@@ -255,3 +255,8 @@ export default {
   }
 };
 </script>
+<style lang="stylus" scoped>
+#allmap
+  width 1000px
+  height 600px
+</style>
